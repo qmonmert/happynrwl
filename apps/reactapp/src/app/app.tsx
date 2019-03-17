@@ -10,6 +10,7 @@ export class App extends Component {
       <div>
         <div style={{ textAlign: 'center' }}>
           <h1>Welcome to {title}!</h1>
+          <happynrwl-greeting title={title} />
           <img
             width="450"
             src="https://raw.githubusercontent.com/nrwl/nx/master/nx-logo.png"
