@@ -6,6 +6,17 @@ This project was generated using [Nx](https://nx.dev).
 
 🔎 **Nx is a set of Angular CLI power-ups for modern development.**
 
+## Commands
+
+- npx --ignore-existing create-nx-workspace happynrwl --preset=empty
+- cd happynrwl
+- ng g app angularapp --framework=angular
+- ng serve angularapp
+- ng g app reactapp --framework=react
+- ng serve reactapp --port=4201
+- ng g lib ui --framework=none
+- yarn dep-graph
+
 ## Quick Start & Documentation
 
 [30-minute video showing all Nx features](https://nx.dev/getting-started/what-is-nx)
